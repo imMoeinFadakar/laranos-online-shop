@@ -1,0 +1,366 @@
+:root{
+box-sizing: border-box !important;
+    padding: 0px !important;
+    margin: 0px !important;
+    font-family: "B Yekan+" !important;
+--orange: rgb(241, 101, 7);
+--dark-orange: rgb(197, 79, 1);
+}
+body{
+font-family: "B Yekan+";
+
+}
+.orangeHover:hover{
+    background-color: var(--orange);
+    color: white !important;
+}
+.orangeBGC{
+
+background-color: var(--orange) !important;
+
+}
+
+
+.backgroundImage{
+margin: 0 auto !important;
+background: url(/clothes-1839935_1280.jpg)   ;
+background-size: fixed !important;
+outline:  5rem black ;
+z-index: 0 !important;
+position: relative !important;
+top: 0px;
+
+}
+.backgroundColor{
+background: linear-gradient(to top , transparent , transparent, rgba(0,0,0,.9)   );
+z-index: 4 !important;
+position: relative !important;
+top: 0px;
+font-family: "B Yekan+";
+
+}
+.linkProductions{
+border: .5px white solid;
+color: rgb(255, 255, 255) !important;
+background-color: rgba(0, 0, 0, .7);
+}
+.linkProductions:hover{
+background-color: rgba(150, 150, 150, 0.479)  !important;
+}
+.orangeColorLink{
+
+    color: rgb(255, 255, 255) !important;
+font-weight: bold !important;
+font-size: 18px !important;
+}
+.orangeColorLink:hover{
+
+    color: var(--orange) !important  ;
+}
+
+.btn__signup{
+    background-color: var(--orange) !important;
+color: white !important;
+font-family: "B Yekan+";
+}
+.btn__signup:hover{
+  transition: .2s !important;
+  background-color: var(--dark-orange) !important;
+}
+.search__input{
+    padding: .5rem !important;
+    border-radius: 40px !important;
+    -webkit-border-radius: 40px !important;
+    -moz-border-radius: 40px !important;
+    -ms-border-radius: 40px !important;
+    -o-border-radius: 40px !important;
+    width: 100%  !important;
+    border: none !important;
+}
+.search__input::-moz-focus-outer{
+border-color: none !important;
+padding: .5rem;
+border: none !important;
+
+}
+.search__input:focus{
+border-color: none !important;
+padding: .5rem !important;
+border: none !important;
+}
+.search__input::placeholder{
+text-align: center !important;
+}
+
+.s{
+
+
+
+}
+
+.searchBarWrapper{
+margin-top: 6rem !important;
+height: 20rem !important;
+
+}
+.border__left{
+    border-right: 8px gray solid !important;
+}
+.circle{ width: 10rem !important ; border: 1px gray solid; text-align: center !important; border-radius: 100px !important; -webkit-border-radius: 100px !important; -moz-border-radius: 100px !important; -ms-border-radius: 100px !important; -o-border-radius: 100px !important; height: 10rem !important;
+
+display: flex; justify-content: center;flex-direction: column !important;
+    font-family: "B Yekan+" !important;
+}
+
+.circle:hover{
+border: var(--orange) !important;
+background-color: var(--orange) !important;
+cursor: pointer !important;
+color: #fff !important;
+}
+
+
+.bordeInProducts{
+
+border: 1px solid gray;
+
+}
+.textHaeder{
+color: var(--orange) !important;
+
+}
+.images__middle__background{
+
+background: url(/clothes-1839935_1280.jpg);
+height: 30rem !important;
+}
+.backGroundFaded{
+    height: 20rem !important;
+    background-color: rgba(0, 0, 0, .5) !important;
+    color: white !important;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    text-align: center !important
+    ;
+}
+
+.deatilesCardsOne{
+
+    background: url(./Remove-bg.ai_1718955339117.png) no-repeat;
+    background-size: 200px;
+    background-position: center !important;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 1rem !important;
+}
+.deatilesCardsTwo{
+
+    background: url(./Remove-bg.ai_1718955448628.png) no-repeat;
+    background-size: 200px;
+background-position: center !important;
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+padding: 1rem !important;
+}
+.deatilesCardsThree{
+
+    background: url(./Remove-bg.ai_1718955504286.png) no-repeat;
+    background-size: 200px;
+    background-position: center !important;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 1rem !important;
+}
+
+.kinks__actions{ text-decoration: none !important; padding: .8rem 2rem !important; background-color: var(--orange) !important ; color: white !important;
+}
+.footer__links{
+    text-decoration: none !important;
+    color: black !important;
+    font-family: "B Yekan+" !important;
+}
+.footer__links:hover{
+    text-decoration: none !important;
+    color: var(--orange) !important;
+    font-family: "B Yekan+" !important;
+}
+.textOrange{
+
+color: var(--orange) !important;
+font-family: "B Yekan+" !important;
+}
+.footerTitleText{
+
+    font-family: "B Yekan+" !important;
+
+
+}
+.FontYekan{
+    font-family: "B Yekan+" !important;
+}
+
+.backGroundSummer{
+background: url(./summer.jpg) no-repeat;
+background-position: center;
+background-size: cover;
+
+}
+.feedback-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .rating {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row-reverse; /* this is the magic */
+    justify-content: flex-end;
+  }
+  
+  .rating input {
+    display: none;
+  }
+  
+  .rating label {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .rating label:hover,
+  .rating label:hover ~ label { /* reason why the stars are in reverse order in the html */
+    color: orange;
+  }
+  
+  .rating input:checked ~ label {
+    color: orange;
+  }
+  
+  .comment {
+    margin-bottom: 20px;
+  }
+  
+  .comment textarea {
+    width: 100%;
+    height: 100px;
+    resize: none;
+  }
+  
+  .submit-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+.laranoseText{
+    font-size: 90px !important;
+    font-family: "B Yekan+" !important;
+    padding: .8rem 1rem 1.3rem 1rem !important;
+    background: linear-gradient(to right , #fafafa ,  white ,   rgb(255, 195, 156) ,  var(--orange));
+    border-radius: 100px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.textNoos{
+    color: var(--orange) !important;
+}
+.summerBoxShop{ background-color: #fff !important; margin-bottom: 1rem !important; border: white 2px solid !important; border-radius: 80px !important ; -webkit-border-radius: 80px !important ; -moz-border-radius: 80px !important ; -ms-border-radius: 80px !important ; -o-border-radius: 80px !important ;
+}
+
+
+.summerBoxShop:hover{
+
+    background: linear-gradient(to  top , var(--orange) , white , white ) !important;
+color: white !important;
+}
+.textWhiteHover{
+color: white !important;
+}
+.textBlack{
+    font-family: "B Yekan+" !important;
+    color: black !important;
+}
+
+.card {
+    max-width: 100%;
+    background: #fff;
+    margin: 0 1rem;
+    padding: 1rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    border-radius: 0.5rem;
+
+}
+
+  .star {
+    font-size: 10vh;
+    cursor: pointer;
+  }
+
+  .one {
+    color: rgb(255, 0, 0);
+  }
+
+  .two {
+    color: rgb(255, 106, 0);
+  }
+
+  .three {
+    color: rgb(251, 255, 120);
+  }
+
+  .four {
+    color: rgb(255, 255, 0);
+  }
+
+  .five {
+    color: rgb(24, 159, 14);
+  }
+.cardShop{
+    height: 23rem !important;
+}
+.hoverOrange:hover{
+    background-color: var(--orange);
+    color: white !important;
+}
+
+.bgc{
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6.5px )  ;
+    -webkit-backdrop-filter: blur( 6.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.loader {
+    width: 120px;
+    height: 20px;
+    border-radius: 20px;
+    background:
+        linear-gradient(orange 0 0) 0/0% no-repeat
+        lightblue;
+    animation: l2 2s infinite steps(10);
+}
+@keyframes l2 {
+    100% {background-size:110%}
+}
+
+.text-orange{
+color: var(--orange) !important;
+
+}
+
