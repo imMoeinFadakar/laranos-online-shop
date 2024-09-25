@@ -48,13 +48,7 @@ From the moment you enter, everything is designed to be modern and up-to-date un
 * Login
 <img  src="Login.png">
 
-
-
-
 <h3>Developer(s) ⚡ </h3>
 <a href="https://www.GitHub.com/moeinfadakar">Moein Fadakar</a>
 
-<h3>Licence</h3>
-<img  src="https://img.shields.io/badge/-MITlicence-333333?style=flat" >
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
